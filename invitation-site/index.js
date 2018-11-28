@@ -48,9 +48,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const envelopeAddressOneDiv = document.getElementById('address-envelope')
     const envelopeAddressTwo = document.getElementById('envelope-address-second')
     const envelopeAddressTwoDiv = document.getElementById('address-envelope-two')
-    const envelopeAddressThree = document.getElementById('address-envelope-two')
-
-    const envelopeAddressThree = document.getElementById('envelope-address-three')
+    const envelopeAddressThree = document.getElementById('address-envelope-third')
+    const envelopeAddressThreeDiv = document.getElementById('envelope-address-three')
 
 
 
@@ -126,7 +125,12 @@ function changeEnvelope() {
     addressSecond.innerText = addressTwoValue;
  })
  
- 
+     const nameOnEnvelope = document.getElementById('full-name-address')  
+
+    fullNameOne.addEventListener('keyup', (event) => {
+    let FirstBoxValue = nameOnEnvelope.value;
+    envelopeName.innerText = FirstBoxValue;
+ })
 
 
 
