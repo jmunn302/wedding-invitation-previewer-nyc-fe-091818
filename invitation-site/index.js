@@ -45,7 +45,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const envelopeName = document.getElementById('envelope-name')
     const envelopeNameDiv = document.getElementById('envelope-top-name')
     const envelopeAddressOne = document.getElementById('address-envelope-first')
-    const envelopeAddressTwo = document.getElementById('envelope-address-two')
+    const envelopeAddressOneDiv = document.getElementById('address-envelope')
+    const envelopeAddressTwo = document.getElementById('envelope-address-second')
+    const envelopeAddressTwoDiv = document.getElementById('address-envelope-two')
+    const envelopeAddressThree = document.getElementById('address-envelope-two')
+
     const envelopeAddressThree = document.getElementById('envelope-address-three')
 
 
