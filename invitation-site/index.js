@@ -136,7 +136,7 @@ function changeEnvelope() {
 
     firstLineAddress.addEventListener('keyup', (event) => {
     let FirstEnvelopeAddressValue = firstLineAddress.value;
-    envelopeAddressOne.innerText = FirstEnvelopeValue;
+    envelopeAddressOne.innerText = FirstEnvelopeAddressValue;
  })
 
 
