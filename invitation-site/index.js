@@ -2,9 +2,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   changeInvite()
 
-  if (document.getElementById("white").checked) {
-    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/aPhhPGg.jpg')";
-    
   if (document.getElementById("vintage").checked) {
      firstNameDiv.className = "";
      firstNameDiv.classList.add("vintage");
