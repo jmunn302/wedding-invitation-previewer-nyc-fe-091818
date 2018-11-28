@@ -59,13 +59,13 @@ function changeEnvelope() {
     if (document.getElementById("white").checked) {
     document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/aPhhPGg.jpg')";
     } else if (document.getElementById("gold").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/lVMqbnS.jpg')";
+    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/lVMqbnS.jpg')";
     } else if (document.getElementById("lightblue").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/Tvqg0I3.jpg')";
+    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/Tvqg0I3.jpg')";
     } else if (document.getElementById("blush").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
+    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
     } else if (document.getElementById("silver").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/aBj8mdD.jpg')";
+    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/aBj8mdD.jpg')";
     }
 }
 
