@@ -42,7 +42,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const addressDiv = document.getElementById('address-div')
     const addressSecond = document.getElementById('address-second')
     const addressSecondDiv = document.getElementById('address-second-div')
-    
+    const envelopeName = document.getElementById('full-name-address')
+    const envelopeAddressOne = document.getElementById('envelope-address-one')
 
 function changeInvite() {
     if (document.getElementById("modern").checked) {
