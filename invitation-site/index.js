@@ -132,10 +132,10 @@ function changeEnvelope() {
     envelopeName.innerText = FirstEnvelopeValue;
  })
 
-     const nameOnEnvelope = document.getElementById('full-name-address')  
+     const firstLineAddress = document.getElementById('envelope-address-one')  
 
-    nameOnEnvelope.addEventListener('keyup', (event) => {
-    let FirstEnvelopeValue = nameOnEnvelope.value;
+    firstLineAddress.addEventListener('keyup', (event) => {
+    let FirstEnvelopeAddressValue = firstLineAddress.value;
     envelopeName.innerText = FirstEnvelopeValue;
  })
 
