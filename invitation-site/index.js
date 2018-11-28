@@ -145,6 +145,13 @@ function changeEnvelope() {
     let secondAddressValue = secondLine.value;
     envelopeAddressTwo.innerText = secondAddressValue;
  })
+ 
+       const thirdLine = document.getElementById('envelope-address-three')  
+
+    thirdLine.addEventListener('keyup', (event) => {
+    let thirdAddressValue = thirdLine.value;
+    envelopeAddressThree.innerText = thirdAddressValue;
+ })
 
 
 
