@@ -66,6 +66,7 @@ font-family: 'Raleway', sans-serif;
 #address-envelope {
  color: black;
 font-family: 'Raleway', sans-serif;
+margin-top: -10vh;
  margin-bottom: auto;
  font-size: 2.7vw;
  text-transform: uppercase;
