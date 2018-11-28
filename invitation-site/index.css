@@ -53,6 +53,16 @@ background: linear-gradient(135deg, #ffdbe4 0%,#bfe2fc 100%); /* W3C, IE10+, FF1
  align-items: center;
 }
 
+#envelope-top-names {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+ text-align: center;
+ z-index: 3;
+}
 .date-and-time {
 display: flex;
 flex-direction: row;
