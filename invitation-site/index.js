@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", (e) => {
   
   changeInvite()
+  changeEnvelope()
   if (document.getElementById("vintage").checked) {
      firstNameDiv.className = "";
      firstNameDiv.classList.add("vintage");
@@ -64,7 +65,7 @@ function changeEnvelope() {
     } else if (document.getElementById("blush").checked) { 
     document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
     } else if (document.getElementById("silver").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
+    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/aBj8mdD.jpg')";
     }
 }
 
