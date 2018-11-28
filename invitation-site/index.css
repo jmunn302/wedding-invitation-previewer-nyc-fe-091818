@@ -55,13 +55,44 @@ background: linear-gradient(135deg, #ffdbe4 0%,#bfe2fc 100%); /* W3C, IE10+, FF1
 
 #envelope-top-names {
  color: black;
-font-family: 'Norican', cursive;
+font-family: 'Raleway', sans-serif;
  margin-bottom: auto;
  font-size: 2.7vw;
- text-transform: capitalize;
+ text-transform: uppercase;
  text-align: center;
  z-index: 3;
 }
+
+#address-envelope {
+ color: black;
+font-family: 'Raleway', sans-serif;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+#address-envelope-two {
+ color: black;
+font-family: 'Raleway', sans-serif;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+#address-envelope-three {
+ color: black;
+font-family: 'Raleway', sans-serif;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
 .date-and-time {
 display: flex;
 flex-direction: row;
