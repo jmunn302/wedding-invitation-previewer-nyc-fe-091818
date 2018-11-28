@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", (e) => {
-  
+  changeEnvelope()
   changeInvite()
 
   if (document.getElementById("vintage").checked) {
