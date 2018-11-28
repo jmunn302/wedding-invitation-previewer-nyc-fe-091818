@@ -62,7 +62,9 @@ function changeEnvelope() {
     } else if (document.getElementById("lightblue").checked) { 
     document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/Tvqg0I3.jpg')";
     } else if (document.getElementById("blush").checked) { 
-    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/62CkM2D.png')";
+    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
+    } else if (document.getElementById("silver").checked) { 
+    document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/WjU1QnZ.png')";
     }
 }
 
