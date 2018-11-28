@@ -139,11 +139,11 @@ function changeEnvelope() {
     envelopeAddressOne.innerText = firstEnvelopeAddressValue;
  })
  
-      const secondLineAddress = document.getElementById('envelope-address-two')  
+      const secondLine = document.getElementById('envelope-address-two')  
 
-    secondLineAddress.addEventListener('keyup', (event) => {
-    let secondEnvelopeAddressValue = secondLineAddress.value;
-    envelopeAddressTwo.innerText = secondEnvelopeAddressValue;
+    secondLine.addEventListener('keyup', (event) => {
+    let secondAddressValue = secondLine.value;
+    envelopeAddressTwo.innerText = secondAddressValue;
  })
 
 
