@@ -132,6 +132,13 @@ function changeEnvelope() {
     envelopeName.innerText = FirstEnvelopeValue;
  })
 
+     const nameOnEnvelope = document.getElementById('full-name-address')  
+
+    nameOnEnvelope.addEventListener('keyup', (event) => {
+    let FirstEnvelopeValue = nameOnEnvelope.value;
+    envelopeName.innerText = FirstEnvelopeValue;
+ })
+
 
 
 const vintageRadio = document.getElementById('vintage')
