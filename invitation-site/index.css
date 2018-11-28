@@ -56,6 +56,7 @@ background: linear-gradient(135deg, #ffdbe4 0%,#bfe2fc 100%); /* W3C, IE10+, FF1
 #envelope-top-names {
  color: black;
 font-family: 'Raleway', sans-serif;
+margin-top: 10px;
  margin-bottom: auto;
  font-size: 2.7vw;
  text-transform: uppercase;
