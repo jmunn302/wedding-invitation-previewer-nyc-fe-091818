@@ -135,14 +135,14 @@ function changeEnvelope() {
      const firstLineAddress = document.getElementById('envelope-address-one')  
 
     firstLineAddress.addEventListener('keyup', (event) => {
-    let FirstEnvelopeAddressValue = firstLineAddress.value;
-    envelopeAddressOne.innerText = FirstEnvelopeAddressValue;
+    let firstEnvelopeAddressValue = firstLineAddress.value;
+    envelopeAddressOne.innerText = firstEnvelopeAddressValue;
  })
  
-      const secondLineAddress = document.getElementById('envelope-address-one')  
+      const secondLineAddress = document.getElementById('envelope-address-two')  
 
-    firstLineAddress.addEventListener('keyup', (event) => {
-    let FirstEnvelopeAddressValue = firstLineAddress.value;
+    secondLineAddress.addEventListener('keyup', (event) => {
+    let secondEnvelopeAddressValue = firstLineAddress.value;
     envelopeAddressOne.innerText = FirstEnvelopeAddressValue;
  })
 
