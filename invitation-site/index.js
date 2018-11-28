@@ -56,8 +56,8 @@ function changeInvite() {
 
 function changeEnvelope() {
     if (document.getElementById("white").checked) {
-    document.getElementById("envelope-background").style.backgroundImage = "url('')";
-    } else if (document.getElementById("romantic").checked) { 
+    document.getElementById("envelope-background").style.backgroundImage = "url('https://i.imgur.com/aPhhPGg.jpg')";
+    } else if (document.getElementById("gold").checked) { 
     document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/TkchBlW.png')";
     } else if (document.getElementById("vintage").checked) { 
     document.getElementById("background").style.backgroundImage = "url('https://i.imgur.com/X7QJmLU.png')";
