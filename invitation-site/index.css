@@ -1,0 +1,2191 @@
+body {
+background: #ffdbe4; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffdbe4 0%, #bfe2fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffdbe4 0%,#bfe2fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffdbe4 0%,#bfe2fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.full-container {
+  display: flex;
+  width: 90vw;
+  height: auto;
+  flex-direction: row;
+  margin: 50px;
+}
+
+
+.column-one {
+  width: 40%;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.5);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  margin: 20px;
+}
+
+.column-one p {
+  font-size: .8em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.heading {
+  font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.column-two {
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+  background-color: rgba(256, 256, 256, 0.5);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+  
+}
+
+.column-two img {
+ height: 100%;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+}
+
+#envelope-top-names {
+ color: black;
+font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+ margin-bottom: auto;
+ font-size: 2vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+#address-envelope {
+ color: black;
+font-family: 'Raleway', sans-serif;
+margin-top: -78vh;
+ margin-bottom: auto;
+ font-size: 1vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+#address-envelope-two {
+ color: black;
+font-family: 'Raleway', sans-serif;
+margin-top: -77vh;
+ margin-bottom: auto;
+ font-size: 1vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+#address-envelope-three {
+ color: black;
+font-family: 'Raleway', sans-serif;
+ margin-bottom: auto;
+ margin-top: -77vh;
+ font-size: 1vw;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 3;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 12vh;
+}
+
+#background {
+  display: flex;
+  flex-direction: column;
+   align-content: flex-start;
+ justify-content: flex-start;
+  position: absolute;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+#envelope-background {
+  display: flex;
+  flex-direction: column;
+   align-content: flex-start;
+ justify-content: flex-start;
+  position: absolute;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+#first-name {
+ text-align: center;
+ z-index: 3;
+}
+
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 20vh;
+ margin-bottom: auto;
+ font-size: 2.5vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.6vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 2.5vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 14vh;
+ margin-bottom: auto;
+ font-size: 2.6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 1.2vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 1vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 1vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 1.2vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 1vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 1vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 1.2vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 1vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 1vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 1vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+text-transform: uppercase;
+ font-size: 1vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: .9vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 1vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 1vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: .9vw;
+}
+
+
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+
+.input-fields p {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input-text {
+  margin: 3px;
+  padding: 7px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1580px) {
+
+  /*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 20vh;
+ margin-bottom: auto;
+ font-size: 2.5vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.6vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 2.5vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 16vh;
+ margin-bottom: auto;
+ font-size: 2.6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 2.7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+}
+
+@media only screen and (max-width: 1340px) {
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 19vh;
+ margin-bottom: auto;
+ font-size: 3.2vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 3vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 3.8vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 3.8vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 3.2vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 16vh;
+ margin-bottom: auto;
+ font-size: 3vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 9vh;
+ margin-bottom: auto;
+ font-size: 3.8vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 3.8vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 1.4vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 1.2vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 1.2vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 1.4vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 1.2vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 1.2vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 1.4vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 1.2vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 1.2vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 1.2vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+text-transform: uppercase;
+ font-size: 1.2vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 1.1vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 1.2vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 1.2vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 1.1vw;
+}
+
+
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+
+.input-fields p {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input-text {
+  margin: 3px;
+  padding: 7px;
+  width: 100%;
+}
+  
+  
+}
+
+@media only screen and (max-width: 1180px) {
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 22vh;
+ margin-bottom: auto;
+ font-size: 3.4vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 21vh;
+ margin-bottom: auto;
+ font-size: 3.5vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 20vh;
+ margin-bottom: auto;
+ font-size: 4.2vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 20vh;
+ margin-bottom: auto;
+ font-size: 4vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 3.4vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 14vh;
+ margin-bottom: auto;
+ font-size: 3.5vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 4.2vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 4vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 1.6vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 1.2vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 1.4vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 1.6vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 1.2vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 1.6vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 1.2vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 1.4vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 1.6vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+text-transform: uppercase;
+ font-size: 1.2vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 1.6vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 1.2vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+
+.input-fields p {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input-text {
+  margin: 3px;
+  padding: 7px;
+  width: 100%;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 8.5vh;
+}
+  
+  
+}
+
+@media only screen and (max-width: 985px) {
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 25vh;
+ margin-bottom: auto;
+ font-size: 3.4vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 24vh;
+ margin-bottom: auto;
+ font-size: 3.5vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 23vh;
+ margin-bottom: auto;
+ font-size: 4.2vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 23vh;
+ margin-bottom: auto;
+ font-size: 4vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 9vh;
+ margin-bottom: auto;
+ font-size: 3.4vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 3.5vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 8vh;
+ margin-bottom: auto;
+ font-size: 4.2vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 4vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 1.6vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 1.5vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 1.4vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 1.6vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 1.5vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 1.6vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 1.5vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 1.4vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 1.6vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+text-transform: uppercase;
+ font-size: 1.5vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 1.6vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 1.5vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 1.4vw;
+}
+
+
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+
+.input-fields p {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input-text {
+  margin: 3px;
+  padding: 7px;
+  width: 100%;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 8.5vh;
+}
+  
+  
+}
+
+@media only screen and (max-width: 900px) {
+.full-container {
+  display: flex;
+  width: 90vw;
+  height: auto;
+  flex-direction: column;
+  margin: 0;
+}
+
+.column-one {
+  width: 90%;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.5);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 100%;
+
+}
+
+.column-two {
+  flex-direction: column;
+  width: 90%;
+  height: 100vw;
+  background-color: rgba(256, 256, 256, 0.5);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+  
+}
+
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 17vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 18vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 16vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 16vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 8vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 3vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 2vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 2vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 3vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 3vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 2vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 2vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 2.3vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 2.3vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 2vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 12vh;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  
+.full-container {
+  display: flex;
+  width: 80vw;
+  height: auto;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+}
+
+.column-one {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.5);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 100%;
+
+}
+
+.column-two {
+  flex-direction: column;
+  width: 90%;
+  height: 100vw;
+  background-color: rgba(256, 256, 256, 0.5);
+margin-right: auto;
+margin-left: auto;
+    padding: 20px;
+    position: relative;
+  
+}
+
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 12vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 11vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 6vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 8vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 5.7vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 7vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 2.5vw;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 3vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 2vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 2vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+font-size: 2.5vw;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 3vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+ font-size: 2.5vw;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 3vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 2vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 2vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+font-size: 2.5vw;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 2.3vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top: -1vh;
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+font-size: 2.5vw;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 2.3vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 2vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 5vh;
+}
+}
+
+@media only screen and (max-width: 420px) {
+.full-container {
+  display: flex;
+  width: 80vw;
+  height: auto;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+}
+
+.column-one {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.5);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  height: 100%;
+
+}
+
+.column-two {
+  flex-direction: column;
+  width: 90%;
+  height: 100vw;
+  background-color: rgba(256, 256, 256, 0.5);
+margin-right: auto;
+margin-left: auto;
+    padding: 20px;
+    position: relative;
+  
+}
+
+/*First Name Div*/
+
+.vintage #first-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.romantic #first-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+.modern #first-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 10vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+}
+
+.elegant #first-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 11vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+}
+
+/* Second Name Div*/
+
+.vintage #second-name {
+ color: black;
+font-family: 'Rochester', cursive;
+ margin-top: 7.5vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.romantic #second-name {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+ margin-top: 9vh;
+ margin-bottom: auto;
+ font-size: 6vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.modern #second-name {
+ color: black;
+font-family: 'Norican', cursive;
+ margin-top: 5.7vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.elegant #second-name {
+ color: #c0a451;
+font-family: 'Lobster', cursive;
+ margin-top: 7vh;
+ margin-bottom: auto;
+ font-size: 7vw;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+/*Date Div*/
+.vintage #date {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 2.5vw;
+
+}
+
+.romantic #date {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ font-size: 3vw;
+}
+
+.modern #date {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+ text-transform: uppercase;
+  font-size: 2vw;
+}
+
+.elegant #date {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+ text-transform: uppercase;
+ font-size: 2vw;
+}
+
+/*Time Div*/
+.vintage #time {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+font-size: 2.5vw;
+
+}
+
+.romantic #time {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 3vw;
+
+}
+
+.modern #time {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #time {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Location Div*/
+
+.vintage #location {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -10px;
+ font-size: 2.5vw;
+}
+
+.romantic #location {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+ text-transform: capitalize;
+ margin-top: -1vh;
+ font-size: 3vw;
+}
+
+.modern #location {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -1vh;
+  font-size: 2vw;
+}
+
+.elegant #location {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+ margin-top: -10px;
+ font-size: 2vw;
+}
+
+/*Address First Line*/
+
+.vintage #address-first {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -1px;
+font-size: 2.5vw;
+
+}
+
+.romantic #address-first {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -1px;
+font-size: 2.3vw;
+}
+
+.modern #address-first {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top: -1vh;
+text-transform: uppercase;
+ font-size: 2vw;
+
+}
+
+.elegant #address-first {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top: -1px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+/*Address Second Line*/
+
+.vintage #address-second {
+font-family: 'Slabo 13px', serif;
+text-align: center;
+margin-top: -10px;
+font-size: 2.5vw;
+}
+
+.romantic #address-second {
+ color: gray;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+margin-top: -10px;
+font-size: 2.3vw;
+}
+
+.modern #address-second {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+ font-size: 2vw;
+}
+
+.elegant #address-second {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+text-align: center;
+margin-top:-10px;
+text-transform: uppercase;
+font-size: 2vw;
+}
+
+.date-and-time {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin-top: 5vh;
+}
+}
